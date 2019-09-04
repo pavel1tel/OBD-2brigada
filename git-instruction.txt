@@ -1,0 +1,22 @@
+Type this commands in your console:
+1.git clone https://github.com/PavelItel228/OBD-2brigada.git
+2.git fetch origin
+3.git remote show origin
+Read the output find your name in remote branches this will be your own branch
+4.git checkout --track origin/your_branch_name
+Now you are ready to write the code in your branch. To commit the code in your local machine typein console:
+git add .
+git commit -m "Your commit message"
+If you want to push your commits to github type:
+git push origin your_branch_name   (!!! Login is your email!!!)
+
+Additions:
+
+add to .gitignore files that you dont wont to push to github (Example: venv, __pycache__)
+
+for better usege i recommend to add in the end of .bashrc file located in your home dir following code:
+
+parse_git_branch() {
+      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+export PS1="\u@\h: \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
