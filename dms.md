@@ -22,7 +22,7 @@
 * IDC Information Transformation Maturity Model
 * Gather Enterprise Information Management Maturity Model
 
-# Стандарти СУД
+## Стандарти СУД
 * Data Management Association Data Management Body of Knowledge (DAMA-DMBOK)
 
 
