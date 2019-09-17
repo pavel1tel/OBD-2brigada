@@ -16,10 +16,10 @@
 * Шифрування даних
 
 ## Моделі що описують СУД
-* EDM Council Data Management Capability Assessment Model (DCAM)
+* [EDM Council Data Management Capability Assessment Model (DCAM)](https://dgpo.org/wp-content/uploads/2016/06/EDMC_DCAM_-_WORKING_DRAFT_VERSION_0.7.pdf)
 * [CMMI Data Management Maturity Model (DMM)](https://cmmiinstitute.zendesk.com/hc/en-us/articles/218924137-What-is-a-DMM-assessment-and-how-to-get-more-information-about-it-)                                                                                                                                                 
-* CC CDQ Data Excellence Model (DXM)
-* IDC Information Transformation Maturity Model
+* [CC CDQ Data Excellence Model (DXM)](https://www.cc-cdq.ch/data-excellence-model)
+* [IDC Information Transformation Maturity Model](https://www.linkedin.com/pulse/managing-enterprise-content-idc-maturity-model-holly-muscolino)
 * Gather Enterprise Information Management Maturity Model
 
 ## Опис DMM моделі
