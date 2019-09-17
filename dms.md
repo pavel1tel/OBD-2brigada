@@ -15,7 +15,7 @@
 * Управління метаданими
 * Шифрування даних
 
-## Моделі що описують СУД
+## Моделі що описують Системи Упрвління Данними
 * [EDM Council Data Management Capability Assessment Model (DCAM)](https://dgpo.org/wp-content/uploads/2016/06/EDMC_DCAM_-_WORKING_DRAFT_VERSION_0.7.pdf)
 * [CMMI Data Management Maturity Model (DMM)](https://cmmiinstitute.zendesk.com/hc/en-us/articles/218924137-What-is-a-DMM-assessment-and-how-to-get-more-information-about-it-)                                                                                                                                                 
 * [CC CDQ Data Excellence Model (DXM)](https://www.cc-cdq.ch/data-excellence-model)
