@@ -25,11 +25,11 @@
 
 ------------
 ## What is Open Numbers?
-It’s a community for data-crunchers who harmonize statistics to make them more useful for a fact-based worldview. Gapminder moderates the process to make sure people participating know what they are doing.
+Це спільнота для розбірників даних, які гармонізують статистику, щоб зробити їх кориснішими для світогляду, заснованого на фактах. Gapminder модерує процес, щоб переконатися, що люди, що беруть участь, знають, що вони роблять.
 
-1. We fetch data from recognized reliable sources. Any statistical data about global and local developments across any subject matter, including Societal, Environmental and Economical developments.
-2. We transform the data into our Data Description Format (DDF) csv format. Data transformations are often done through scripts in python, node.js or Excel, and sometimes manually. The transformation process should be transparent and possible to replicate later by someone else, when data-sources are updated.
-3. Most of the DDF-datasets fetched by Gapminder are then combined into larger datasets, to enable comparisons of developments across different subject matters, and to combine local and global statistics. The end product from Gapminder’s perspective is our largest dataset called: Systema Globalis. Which is used in Gapminder’s tools.
+1. Вони отримують дані з визнаних надійних джерел. Будь-які статистичні дані про глобальні та локальні зміни по будь-якій тематиці, включаючи соціальні, екологічні та економічні події.
+2. Вони перетворюють дані у формат CSV Формат опису даних (DDF). Перетворення даних часто здійснюються за допомогою скриптів у python, node.js або Excel, а іноді вручну. Процес трансформації повинен бути прозорим і можливим для подальшого копіювання кимсь іншим, коли джерела даних оновлюються.
+3. Більшість наборів даних DDF, отриманих Gapminder, потім об'єднуються у більші набори даних, щоб забезпечити порівняння подій у різних предметних питаннях та поєднати локальну та глобальну статистику.
 
 ## Источники:
 [НСУД.-Концепция](https://digital.msu.ru/wp-content/uploads/НСУД.-Концепция_в8_25112018.pdf "НСУД.-Концепция")
