@@ -17,10 +17,27 @@
 
 ## Моделі що описують СУД
 * EDM Council Data Management Capability Assessment Model (DCAM)
-* CMMI Data Management Maturity Model (DMM)
+* [CMMI Data Management Maturity Model (DMM)](https://cmmiinstitute.zendesk.com/hc/en-us/articles/218924137-What-is-a-DMM-assessment-and-how-to-get-more-information-about-it-)                                                                                                                                                 
 * CC CDQ Data Excellence Model (DXM)
 * IDC Information Transformation Maturity Model
 * Gather Enterprise Information Management Maturity Model
+
+## Опис DMM моделі
+DMM оціннювання (Оцінка зрілості управління данними) базується на основі нарад між колегами
+і швидко виявляє в організації її поточні можливості, рівні зрілості її проектів, і визначає                         
+зони де потрібні додаткові ресурси.  
+Результат оцінювання це детальний звіт що використовується для розробки нових стратегій і застосувань     
+запланованих дій.    
+**Переваги DMM моделі:**
+* Незалежне, об'єктивне оціннювання(оціннювання зазвичай здійснюється кваліфікованими третіми особами)
+* Швидкі результати(оцінювання відбувається за трьох тижневий термін)
+* Дієві рекомендації (рекомендації узгоджуються і пріорітизуються акціонерами)
+
+**DMM оцінювання поділяється на 3 фази**  
+![](img/diagram1.png)
+DMM побудований таким чином, що його можуть використовувати організації
+ не лише для оцінки їх поточного стану можливостей,
+ але і для складання спеціалізованої схеми для впровадження управління даними.
 
 ## Стандарти СУД
 * Data Management Association Data Management Body of Knowledge (DAMA-DMBOK)
