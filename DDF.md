@@ -1,25 +1,20 @@
-# DDF step 1: Data is stored in DataPoints
+# DDF крок 1: Дані зберігаються в DataPoints
 
-Data in DDF is stored in key-value pairs called DataPoints. The key consists of two or more dimensions while the value consists of one indicators. 
-The below table shows 
+Дані в DDF зберігаються в парах ключових значень під назвою DataPoints. Ключ складається з двох або більше вимірів, тоді як значення складається з одного показника.
 
-### 1.1 Concepts, dimensions and indicators
+### 1.1 Поняття, розміри та показники
 
-A quick introduction to concepts is necessary, further detailed explanation follows in step 3.
-* A **concept** is anything that can be a column header in a table.
-In the table above, country, year and government_type are all concepts.
-* A **concept type** signifies the datatype of the values under a certain concept. 
-Types defined in DDF are string, measure (numeric), boolean, interval, time and the more DDF-specific entity domain, entity set and role. The former speak for themselves while the latter will be explained in step 2, entities.
-In the table above, country and government_type are concepts with a entity_domain concept type, year has a time concept type and population has a measure concept type.
+Необхідно швидке введення понять, подальше детальне пояснення випливає на кроці 3.
+* **Концепція** - це все, що може бути заголовком стовпця в таблиці.
+* **Тип концепції** позначає тип даних значень під певним поняттям.
+Типи, визначені в DDF, - це рядковий, вимірювальний (числовий), булевий, інтервал, час і більше домен сутності, специфічний для DDF, набір сутності та роль. Перші говорять самі за себе, тоді як другі будуть пояснені на кроці 2, сутності.
 
-In DDF DataPoints:
-* A **dimension** is a concept in the key of the DataPoint key-value pair. In statistics, a concept in the key is called an independent variable.
-In the table above, country and year are dimensions forming the key to the indicator.
-* An **indicator** is a concept in the value-part of the DataPoint key-value pair. In statistics the indicator would be called a dependent variable, because its value is dependent on the key.
-In the table above government_type and population are the indicators.
+У DDF DataPoints:
+* **Виміри** - це поняття в ключі DataPoint пари ключ-значення. У статистиці поняття в ключі називається незалежною змінною.
+* **Індикатор** - це поняття в частині значення пари ключ-значення DataPoint. У статистиці індикатор можна назвати залежною змінною, оскільки його значення залежить від ключа.
 
-### 1.2 Dimensions as a key for a DataPoint
-Dimensions are the concepts making up the key in DataPoints. DataPoints in DDF are often used to store changes over years and geographic locations.
+### 1.2 Виміри як ключі для DataPoint
+Виміри - це поняття, що складають ключове значення в точках даних. Точки даних у DDF часто використовуються для зберігання змін за роки та географічні місця.
 
 ### 1.3 Indicators 
 The set of indicators can be expanded to represent more data for a certain set of dimensions.
