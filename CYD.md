@@ -63,4 +63,5 @@ __Data managment__ - це практика організації та підт�
 
 [CУД](http://usu.kz/wiki/sistema_upravleniya_dannimi.php)  
 [PMD](https://ru.wikipedia.org/wiki/PDM-система)  
-[Open data](https://youcontrol.com.ua/ru/topics/open-data-otkryityie-dannyie-youcontrol/)
+[Open data](https://youcontrol.com.ua/ru/topics/open-data-otkryityie-dannyie-youcontrol/)  
+[Data Managment](https://searchdatamanagement.techtarget.com/definition/data-management)
