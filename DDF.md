@@ -16,24 +16,21 @@
 ### 1.2 Виміри як ключі для DataPoint
 Виміри - це поняття, що складають ключове значення в точках даних. Точки даних у DDF часто використовуються для зберігання змін за роки та географічні місця.
 
-### 1.3 Indicators 
-The set of indicators can be expanded to represent more data for a certain set of dimensions.
+### 1.3 Показники
+Набір показників можна розширити, щоб представити більше даних для певного набору вимірів.
 
-# DDF step 2: Entities
-The following terms are introduced in this step:
-* A **property** provides additional information about a discrete concept. 
-For example, the concept country can have properties full_name, latitude or longitude. 
-* An **entity domain** is a discrete concept which has all of its possible values enumerated. This way, it explicitly defines the domain of the concept. Moreover, enumerating all possible values makes it possible to define properties for each value. 
-For example, we can turn country into an entity domain by enumerating all countries. By doing so, we can define the full name, latitude and longitude for each country.
-* An **entity** is one value within an entity domain.
-For example Sweden or Russia are entities in the entity domain country.
-* An **entity set** is a set of entities within an entity domain.
-For example, instead of an entity domain, country can be an entity set within an entity domain geographic places, next to other entity sets such as city, world_region and province.
+# DDF крок 2: Суб'єкти
+### На цьому кроці вводяться наступні терміни:
+* **Властивість** надає додаткову інформацію про дискретний концепт.
+* Домен **сутності** - це дискретна концепція, у якій перераховані всі можливі значення. Таким чином, він чітко визначає область поняття. Більше того, перерахування всіх можливих значень дає можливість визначити властивості для кожного значення.
+* **Суб'єк** - це одне значення у домені сутності.
+Наприклад, Швеція чи Росія є суб'єктами, що перебувають у країні, що належить до юридичної особи.
+* Набір **об'єктів** - це сукупність об'єктів у домені сутності.
 
-# DDF step 3: Concepts and concept properties
-Concepts are the table headers anywhere in a DDF dataset. Concept properties are concepts which give information about concepts. A first peek into concept-properties was the entity domain and entity set enumeration and the properties concept_type, domain and drill_up.
+# DDF крок 3: Поняття та властивості поняття
+Поняття - це заголовки таблиць в будь-якому місці набору даних DDF. Властивості поняття - це поняття, які дають інформацію про поняття. Першим поглядом на властивості поняття було перерахування домену та сутності сутності та властивостей concept_type, domain та drill_up.
 
-Any property of any concept can be defined in a similar way in DDF. All concepts used in the data-set should be enumerated and any property of these concepts can be defined in this enumeration. Below an example for a dataset similar to the ones used in previous examples. Also have a look in the [Systema Globalis](https://github.com/open-numbers/ddf--gapminder--systema_globalis/blob/master/ddf--concepts.csv) data set for an even larger enumeration of concepts.
+Будь-яка властивість будь-якої концепції може бути визначена аналогічно в DDF. Усі поняття, що використовуються в наборі даних, повинні бути перераховані, і будь-яка властивість цих понять може бути визначена в цьому перерахуванні. Нижче наведено приклад для набору даних, аналогічних тим, які використовувались у попередніх прикладах. Також ознайомтеся з набором даних [Systema Globalis](https://github.com/open-numbers/ddf--gapminder--systema_globalis/blob/master/ddf--concepts.csv) для ще більшого перерахування поняття.
 
 
-Read more the context of DDF in [this document](https://docs.google.com/document/d/1Cd2kEH5w3SRJYaDcu-M4dU5SY8No84T3g-QlNSW6pIE/edit#).
+Дізнатися більше можна в [цьому документі](https://docs.google.com/document/d/1Cd2kEH5w3SRJYaDcu-M4dU5SY8No84T3g-QlNSW6pIE/edit#)  звідки і бралася інформація.
