@@ -2,7 +2,7 @@
 
 ## ER модель
 
-![](diargams2/rm_model.jpg)
+![](diargams/rm_model.jpg)
 
 *Числа вказують на відносини між блоками
 
