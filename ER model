@@ -1,41 +1,41 @@
 @startuml
 
-class Concept {
+object Concept {
   +name
   +units
   +source
   +type
 }
 
-class Use{
+object Use{
 }
 
 
-class DataPoint{
+object DataPoint{
 +name
 +table_name
 }
 
-class DataPointProperties{
+object DataPointProperties{
 +name
 +type
 +info
 +date
 }
 
-class Entity{
+object Entity{
 +name
 +table_name
 }
 
-class Properties{
+object Properties{
 +name
 +type
 +info
 +date
 }
 
-class Line{
+object Line{
 
 }
 
