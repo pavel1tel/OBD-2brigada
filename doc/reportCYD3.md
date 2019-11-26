@@ -17,4 +17,6 @@
 ![](diagrams/rf_model.png)
 
 ----------------------------------------
-## Юзкейси
+## Діаграма Usecase'ів
+
+![](diagrams/usecase.jng)
