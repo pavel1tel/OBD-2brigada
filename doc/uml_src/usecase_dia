@@ -1,0 +1,23 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor unsignedUser
+actor signedUser
+actor owner
+actor admin
+rectangle UseCaseDiagram {
+  (unsignedUser) -- (view all datasets)
+  (signedUser) .> (unsignedUser) : <<extends>>
+  (owner) .> (signedUser) : <<extends>>
+  (admin) .> (owner) : <<extends>>
+  (signedUser) -- (view additional information)
+  (signedUser) -- (download dataset)
+  (owner) -- (dataset management)
+  (dataset management) -- (create dataset)
+  (dataset management) -- (delete dataset)
+  (dataset management) -- (edit dataset)
+  (admin) -- (user management)
+  (user management) -- (delete user)
+  (user management) -- (view all users)
+}
+@enduml
