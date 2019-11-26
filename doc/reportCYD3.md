@@ -14,4 +14,4 @@
 
 ## Реляційна таблиця 
 
-![](diagrams/rf_model.jpg)
+![](diagrams/rf_model.png)
