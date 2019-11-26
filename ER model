@@ -1,0 +1,51 @@
+@startuml
+
+class Concept {
+  +name
+  +units
+  +source
+  +type
+}
+
+class Use{
+}
+
+
+class DataPoint{
++name
++table_name
+}
+
+class DataPointProperties{
++name
++type
++info
++date
+}
+
+class Entity{
++name
++table_name
+}
+
+class Properties{
++name
++type
++info
++date
+}
+
+class Line{
+
+}
+
+
+
+Use "0, 1" -- "1, 1" Concept
+Use "0, *" -- "1, 1" DataPoint
+DataPoint "1, 1" -- "0, 1" DataPointProperties
+DataPoint "0, *" -- "1, 1" Entity
+Entity "1, 1"-- "0, 1" Properties
+Concept "1, 2 + function" -- "0, 1 + arg" Line 
+
+@enduml
