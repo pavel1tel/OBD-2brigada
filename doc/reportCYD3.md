@@ -19,4 +19,14 @@
 ----------------------------------------
 ## Діаграма Usecase'ів
 
-![](diagrams/usecase.jng)
+![](diagrams/usecase.jpg)
+
+## Діаграма Checkout'ів
+
+![](diagrams/checkout.jpg)
+
+## Діаграма Registration specification
+
+![](diagrams/reg_sec.jpg)
+
+
