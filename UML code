@@ -1,0 +1,55 @@
+@startuml
+
+
+
+
+object Concept {
+  +name
+  +units
+  +source
+  +type
+}
+
+object Use{
++user_id
++roots
+}
+
+
+object DataPoint{
++name
++table_name
+}
+
+object DataPointProperties{
++name
++type
++info
++date
+}
+
+object Entity{
++name
++table_name
+}
+
+object Properties{
++name
++type
++info
++date
+}
+
+
+
+Use "0, 1" -- "1, 1" Concept
+Use "0, *" -- "1, 1" DataPoint
+DataPoint "1, 1" -- "0, 1" DataPointProperties
+DataPoint "0, *" -- "1, 1" Entity
+Entity "1, 1"-- "0, 1" Properties
+ 
+
+
+
+
+@enduml
