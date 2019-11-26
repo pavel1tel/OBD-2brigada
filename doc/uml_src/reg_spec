@@ -1,0 +1,9 @@
+@startuml
+Visitor -> RegManagement: Leave email
+RegManagement -> RegManagement: Save email
+Visitor <- RegManagement: Send registration form
+Visitor -> RegManagement: Submit filled registration form
+RegManagement -> RegManagement: Verify registration form
+RegManagement -> RegManagement: Save registration form to database
+Visitor <- RegManagement: Redirect to main page
+@enduml
