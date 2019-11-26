@@ -1,0 +1,20 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor visitor
+actor owner
+actor admin
+rectangle UseCaseDiagram {
+  (visitor) -- (data exploration)
+  (owner) .> (visitor) : <<extends>>
+  (admin) .> (owner) : <<extends>>
+  (data exploration) -- (Concept)
+  (data exploration) -- (Data point)
+  (data exploration) -- (Entity)
+  (owner) -- (data management)
+  (data management) -- (Concept management)
+  (data management) -- (Data point management)
+  (data management) -- (Entity management)
+  (admin) -- (super roots)
+}
+@enduml
