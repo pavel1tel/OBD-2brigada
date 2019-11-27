@@ -21,8 +21,6 @@
 
 ![](diagrams/usecase.jpg)
 
-## Діаграма Checkout'ів
-
 ![](diagrams/checkout.jpg)
 
 ## Діаграма Registration specification
