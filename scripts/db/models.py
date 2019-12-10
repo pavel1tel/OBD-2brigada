@@ -10,6 +10,9 @@ class Concept(Base):
 	type = Column(String(45))
 	user = relationship("User")
 
+	def __repr__(self):
+		return f'Concept with id = {self.id} and name = {self.name}'
+
 class Entity(Base):
 	__tablename__ = 'entity'
 	id = Column(Integer, primary_key = True)
@@ -17,6 +20,9 @@ class Entity(Base):
 	table_name = Column(String(45))
 	dataPoint = relationship("DataPoint")
 	properties = relationship("Properties")
+
+	def __repr__(self):
+		return f'Entity with id = {self.id} and name = {self.name}'
 
 class Properties(Base):
 	__tablename__ = 'properties'
@@ -26,6 +32,9 @@ class Properties(Base):
 	info = Column(String(45))
 	entity_id = Column(Integer, ForeignKey('entity.id'))
 
+	def __repr__(self):
+		return f'Propertie with id = {self.id} and name = {self.name}'
+
 class DataPoint(Base):
 	__tablename__ = 'dataPoint'
 	id = Column(Integer, primary_key = True)
@@ -34,6 +43,8 @@ class DataPoint(Base):
 	table_name = Column(String(45))
 	user = relationship("User")
 	dataPointPropertie = relationship("DataPointPropertie")
+	def __repr__(self):
+		return f'DataPoint with id = {self.id} and name = {self.name}'
 
 class DataPointPropertie(Base):
 	__tablename__ = 'dataPointPropertie'
@@ -43,10 +54,16 @@ class DataPointPropertie(Base):
 	info = Column(String(45))
 	dataPoint_id = Column(Integer, ForeignKey('dataPoint.id'))
 
+	def __repr__(self):
+		return f'DataPointPropertie with id = {self.id} and name = {self.name}'
+
 class User(Base):
 	__tablename__ = 'user'
 	id = Column(Integer, primary_key = True)
 	roots = Column(String(45))
 	concept_id = Column(Integer, ForeignKey('concept.id'))
 	dataPoint_id = Column(Integer, ForeignKey('dataPoint.id'))
+
+	def __repr__(self):
+		return f'User with id = {self.id} and roots = {self.roots}'
 

@@ -11,3 +11,4 @@ Session.configure(bind=engine)
 session = Session()
 
 from db import models
+import db.showdb
